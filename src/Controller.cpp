@@ -98,9 +98,6 @@ SearchParameters Controller::buildParameters(const QString &tagLabel)
     SearchParameters::Builder builder(mParamsBuilder);
     auto key = mKeyManager.getKey();
 
-    //auto key = "77f0e74ae3464f5072cba35a3feea5b2";
-    //auto key = "77f0e74ae3464f5072cba35a3feea5b"; <<-- Invalid key
-
     SearchParametersHandler paramsHandler(tagLabel, builder, key);
     return paramsHandler.build();
 }

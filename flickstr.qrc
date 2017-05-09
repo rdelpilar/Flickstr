@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CoreQml/main.qml</file>
+        <file>CoreQml/AlbumDelegate.qml</file>
+        <file>CoreQml/BusyIndicator.qml</file>
+        <file>CoreQml/Button.qml</file>
+        <file>CoreQml/EditableButton.qml</file>
+        <file>CoreQml/PhotoDelegate.qml</file>
+        <file>CoreQml/ProgressBar.qml</file>
+        <file>CoreQml/Tag.qml</file>
+        <file>CoreQml/images/box-shadow.png</file>
+        <file>CoreQml/images/busy.png</file>
+        <file>CoreQml/images/cardboard.png</file>
+    </qresource>
+</RCC>

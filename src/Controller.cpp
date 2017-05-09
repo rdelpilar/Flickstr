@@ -190,17 +190,6 @@ void Controller::photoDownloadFinished(const QString &tag,
         updateDownloadProgressFinished(index);
     }
 
-    // Don't forget to delete items from mProgressDownloadHandler
-    // when deleting an RssModel
-
-    // REFACTOR: Just delete the request but not the query
-    // THE QByteArray is not deleted. It is retained in httpRequest object
-    // Figure out a way to delete it.
-    // YOu will need to reuse the query.
-    // You also need the info from this object: mPhotosAttributes
-    // which gives you the page, pages, perpages, and total variables
-    //mDownloadHandlerHash.remove(tag);
-
 }
 
 void Controller::initDownloadProgress(const int index)
